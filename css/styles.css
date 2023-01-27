@@ -27,12 +27,6 @@
         background-color: var(--primary-bg-color);
 }
 
-.body-portfolio{
-        font-family: "Roboto", sans-serif;
-        color: var(--primary-text-color);
-        background-color: var(--btn-bg-portfolio-color);
-}
-
 .list{
         list-style: none;
 }
