@@ -1,168 +1,225 @@
-body {
-        font-family: 'Roboto';
-        color: #2E2F42;
+:root{
+        --primary-text-color: #2E2F42;
+        --primary-bg-color: #ffffff;
+        --hero-background-color: #2E2F42;
+        --team-background-colr: #F4F4FD;
+        --accent-color: #4D5AE5;
+        --logo-up-color: #2E2F42;
+        --logo-down-color: #F4F4FD;
+        --btn-portfolio-color:#4D5AE5;
+        --btn-bg-portfolio-color: #F4F4FD;
+        --project-card-bg-color: #FFFFFF;
+        --team-card-bg-color: #FFFFFF;
+        --hero-title-color: #FFFFFF;
+        --features-paragraf-color: #434455;
+        --job-color: #434455;
+        --navigation: #2E2F42 ;
+        --type-product-collor: #434455;
+        --main-background-color: #FFFFFF;
+        --team-background-color: #f4f4fd;
+        --footer-background-color: #2E2F42;
 
 }
 
-.logo-studio {
-        font-family: 'Raleway';
+.body{
+        font-family: "Roboto", sans-serif;
+        color: var(--primary-text-color);
+        background-color: var(--primary-bg-color);
+}
+
+.body-portfolio{
+        font-family: "Roboto", sans-serif;
+        color: var(--primary-text-color);
+        background-color: var(--btn-bg-portfolio-color);
+}
+.list{
+        list-style: none;
+}
+.link{
+        text-decoration: none;
+}
+
+.btn-order-service{
+        font-family: inherit;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.18;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background-color: #4D5AE5;
+        border: none;
+        cursor: pointer;
+}
+.btn-order-service:hover,
+.btn-order-service:focus{
+        background-color: #404BBF;
+}
+
+.portfolio-btn{
+        font-family: inherit;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        color: var(--btn-portfolio-color);
+        background: var(--btn-bg-portfolio-color);
+        border: #E7E9FC;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+        color: #FFFFFF;
+        background-color: #4D5AE5;
+}
+
+.logo-up{
+        font-family: 'Raleway', sans-serif;
         font-weight: 800;
-        text-transform: uppercase;
         font-size: 18px;
         line-height: 1.33;
         letter-spacing: 0.03em;
-        color: #2E2F42;
+        text-transform: uppercase;
+        color: var(--logo-up-color);
+}
+.logo-down{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--logo-down-color);
+}
+.logo-web{
+        text-transform: uppercase;
+        color: var(--accent-color);
 }
 
-.logo-web {
-        color: #4D5AE5;
-}
-
-.logo-down {
-        color: #F4F4FD;
-}
-
-.link {
-        text-decoration:none;
-}
-
-.list {
-        list-style: none;
-}
-
-.menu-nav {
-        font-weight: 500;
+.menu-nav{
+        font-weight: 600;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--primary-text-color);
+}
+.menu-nav:hover,
+.menu-nav:focus {
+        color: var(--accent-color);
 }
 
-.menu-nav:active {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #404BBF;
-}
-
-.contact-list {
+.contact-list{
+        font-style: normal;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
 }
 
-.contact-list:hover {
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
+.contact-list:hover,
+.contact-list:focus{
         color: #404BBF;
-}
-
-.service-list {
-        width: 1440px;
-        height: 600px;
-        left: 0px;
-        top: 72px;
-        text-align: center;
-        background: #2E2F42;
-}
-
-.service-title {
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        text-align: center;
-        letter-spacing: 0.02em;
-        color: #FFFFFF;
-}
-
-.btn-order-service {
-        font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #FFFFFF;
-        width: 169px;
-        height: 56px;
-        left: 636px;
-        top: 428px;
-        background: #4D5AE5;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-        cursor: pointer;
-}
-
-.btn-order-service:hover {
-        background: #404BBF;
-}
-
-
-.btn {
-        font-family: 'Roboto';
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        width: 116px;
-        height: 48px;
-        cursor: pointer;
-        letter-spacing: 0.04em;
-        color: #4D5AE5;
-        background-color: #F4F4FD;
-        border: 1px solid #E7E9FC;
-        border-radius: 4px;
-}
-
-.btn:hover {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #FFFFFF;
-        background: #404BBF;
-        box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-        border-radius: 4px;
-}
-
-.title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        
-}
-
-.subtitle {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        
-}
-
-.text {
-        width: 264px;
-        height: 72px;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        color: #434455;
-}
-
-.footer {
-        width: 1440px;
-        height: 310px;
-        background: #2E2F42;
 }
 
 .footer-text{
-        width: 264px;
-        height: 72px;
-        left: 156px;
-        top: 2418px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #E7E9FC;
 }
+.footer{
+        background-color: var(--footer-background-color);
+}
+
+.service-list{
+        font-weight: 600;
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: var(--hero-title-color);
+        background-color: var(--hero-background-color);
+}
+
+.visually-hidden {
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+}
+    
+.skills-title{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.skills-text{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--features-paragraf-color);
+}
+
+.galery-title{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+}
+
+.team-section{
+        background-color: var(--team-background-color);
+}
+
+.team-title{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+}
+
+.name{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.job{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--job-color);
+}
+
+.name-product{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.type-product{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--type-product-collor);
+    }
+
+    .project-card{
+        background-color: var(--project-card-bg-color);
+        border: 0.5px solid #F4F4FD;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+    }
+
+    .team-card{
+        background-color: var(--team-card-bg-color);
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16), 
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+    }
