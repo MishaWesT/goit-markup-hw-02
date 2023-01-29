@@ -13,14 +13,17 @@
         --hero-title-color: #FFFFFF;
         --features-paragraf-color: #434455;
         --job-color: #434455;
-        --navigation: #2E2F42 ;
         --type-product-color: #434455;
         --name-product-color: #434455;
-        --main-background-color: #FFFFFF;
+        --contact-list-color:#434455;
         --footer-background-color: #2E2F42;
         --footer-text-color: #E7E9FC;
         --portfolio-btn-border-color: #E7E9FC;
+        --portfolio-btn-hover-focus:#FFFFFF;
+        --portfolio-btn-hover-focus-bg: #4D5AE5;
         --project-card-color: #2E2F42;
+        --contact-list-hover-focus-color:#404BBF;
+        
 }
 
 body{
@@ -71,8 +74,8 @@ body{
 
 .portfolio-btn:hover,
 .portfolio-btn:focus{
-        color: #FFFFFF;
-        background-color: #4D5AE5;
+        color:var(--portfolio-btn-hover-focus);
+        background-color:var(--portfolio-btn-hover-focus-bg);
 }
 
 .logo-up{
@@ -117,12 +120,12 @@ body{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color:var(--contact-list-color);
 }
 
 .contact-list:hover,
 .contact-list:focus{
-        color: #404BBF;
+        color:var(--contact-list-hover-focus-color);
 }
 
 .footer-text{
